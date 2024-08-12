@@ -24,9 +24,11 @@ async def get_prediction(weather_variable: str = Form(...), days: int = Form(...
     return response_object
 
 
+import uvicorn
+
 if __name__ == "__main__":
-    uvicorn.run("main:app", reload=True)
-    # use with render
+    # For local development, reload=True is useful
     uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
+
   
 
