@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-FASTAPI_URL = "http://127.0.0.1:8000"
+FASTAPI_URL = "https://ml-deployment-weather-forcast.onrender.com"
 
 
 def get_prediction(weather_variable, days):
