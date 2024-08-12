@@ -4,8 +4,8 @@ fastapi
 uvicorn
 streamlit
 pytest
-numpy
-prophet
+numpy==1.26.4
+prophet==1.1.5
 joblib
 plotly
 python-multipart
